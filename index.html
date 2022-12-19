@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>Calculator App</h1>
+  <section class="Calculator App"></section>
   <div class ="output">
     <form name="buttonform">
     <input id="calc" type="text" name="answer"><br><br>
@@ -29,10 +29,12 @@
      <br><br>
       <input type="button" value="0" onclick="buttonform.answer.value +='0'">
       <input type="button" value="/" onclick="buttonform.answer.value +='/'">
-      <input type="button" value="%" onclick="buttonform.answer.value +='%'">
-      <input type="button" value="=" onclick="buttonform.answer.value +=eval(buttonform.answer.value)">
-      <br><br>
-      <input type="button" value="DELETE" onclick="buttonform.answer.value +=''"id="del">
+      <input type="button" value="." onclick="buttonform.answer.value +='.'">
+      <input type = "button" value = "=" onclick = "buttonform.answer.value = eval(buttonform.answer.value) ">
+      <br>
+      <input type="button" value="Clear All" onclick="buttonform.answer.value=''" id="clear">
+      <br>
+    
     </form>
   </div>
   <script src="index.js"></script>
