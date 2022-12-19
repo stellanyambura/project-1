@@ -16,16 +16,16 @@ h1{
 input{
   width: 20px;
   background-color: rgb (91,82,88);
-  color :white;
+  color :#000000;
   padding:26px;
-  border:3px solid gray;
+  border:3px solid green;
   border-radius:26px;
   margin:5px;
   font-size: 15px;
   }
   #clear{
 width:270px;
-border: 3px solid gray;
+border: 3px solid black;
 border-radius: 20px;
 padding: 20px;
 background-color: rgb(62, 62, 62);
