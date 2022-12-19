@@ -12,34 +12,28 @@
   <div class ="output">
     <form name="buttonform">
     <input id="calc" type="text" name="answer"><br><br>
-    <input type="button" value="1" onclick="buttonform.answer.value +='1'">
-     <input type="button" value="2" onclick="buttonform.answer.value +='2'">
-     <input type="button" value="3" onclick="buttonform.answer.value +='3'">
+    <input type="button" value="9" onclick="buttonform.answer.value +='9'">
+     <input type="button" value="8" onclick="buttonform.answer.value +='8'">
+     <input type="button" value="7" onclick="buttonform.answer.value +='7'">
      <input type="button" value="+" onclick="buttonform.answer.value +='+'">
      <br><br>
-     <input type="button" value="4" onclick="buttonform.answer.value +='4'">
-     <input type="button" value="5" onclick="buttonform.answer.value +='5'">
      <input type="button" value="6" onclick="buttonform.answer.value +='6'">
+     <input type="button" value="5" onclick="buttonform.answer.value +='5'">
+     <input type="button" value="4" onclick="buttonform.answer.value +='4'">
      <input type="button" value="-" onclick="buttonform.answer.value +='-'">
      <br><br>
-     <input type="button" value="7" onclick="buttonform.answer.value +='7'">
-     <input type="button" value="8" onclick="buttonform.answer.value +='8'">
-     <input type="button" value="9" onclick="buttonform.answer.value +='9'">
+     <input type="button" value="3" onclick="buttonform.answer.value +='3'">
+     <input type="button" value="2" onclick="buttonform.answer.value +='2'">
+     <input type="button" value="1" onclick="buttonform.answer.value +='1'">
      <input type="button" value="*" onclick="buttonform.answer.value +='*'">
      <br><br>
-      <input type="button" value="/" onclick="buttonform.answer.value +='/'">
       <input type="button" value="0" onclick="buttonform.answer.value +='0'">
-        <input type="button" value="." onclick="buttonform.answer.value +='.'">
-      <input type="button" value="=" onclick="buttonform.answer.value +='='">
-      <br>
-      <input type="button" value="Clear All" onclick="buttonform.answer.value =''" id="clear">
-      <br>
+      <input type="button" value="/" onclick="buttonform.answer.value +='/'">
+      <input type="button" value="%" onclick="buttonform.answer.value +='%'">
+      <input type="button" value="=" onclick="buttonform.answer.value +=eval(buttonform.answer.value)">
+      <br><br>
+      <input type="button" value="DELETE" onclick="buttonform.answer.value +=''"id="del">
     </form>
-    <div id="comments">
-      <form action="" id="comment_form" method="post">
-        <input type="text" id="input_comment" placeholder="enter your comment">
-        <input id="submit" type="submit">
-      </form>
   </div>
   <script src="index.js"></script>
 </body>
